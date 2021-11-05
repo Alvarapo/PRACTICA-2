@@ -8,17 +8,19 @@ package sample;
 /**
  * Sample utility class for vector algebra.
  *
- * @author  nb
+ * @author nb
  */
 public final class Vectors {
 
-    private Vectors() {}
+    private Vectors() {
+    }
 
     /**
      * Checks whether the given vectors are equal.
+     *
      * @param a
      * @param b
-     * @return 
+     * @return
      */
     public static boolean equal(int[] a, int[] b) {
         if ((a == null) || (b == null)) {
@@ -40,9 +42,10 @@ public final class Vectors {
 
     /**
      * Scalar multiplication of given vectors.
+     *
      * @param a
      * @param b
-     * @return 
+     * @return
      */
     public static int scalarMultiplication(int[] a, int[] b) {
         if ((a == null) || (b == null)) {
